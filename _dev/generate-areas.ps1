@@ -1,6 +1,6 @@
-Ôªø# generate-areas.ps1
+# generate-areas.ps1
 param(
-  [string]$SiteUrl = "https://company-zeta-swart.vercel.app"
+  [string]$SiteUrl = "https://repairqelectronics.com"
 )
 
 . "c:\Users\Home\OneDrive\Desktop\repairq\generate-pages.ps1"
@@ -110,11 +110,11 @@ $faqsCombinedJson
         </div>
         <div class="key-fact-item">
           <div class="key-fact-label">On-Site Visiting Fee</div>
-          <div class="key-fact-value">‚Çπ0 (No Visiting Fee)</div>
+          <div class="key-fact-value">?0 (No Visiting Fee)</div>
         </div>
         <div class="key-fact-item">
           <div class="key-fact-label">Lab Turnaround</div>
-          <div class="key-fact-value">24‚Äì48h Rush / 48‚Äì72h Std</div>
+          <div class="key-fact-value">24ñ48h Rush / 48ñ72h Std</div>
         </div>
         <div class="key-fact-item">
           <div class="key-fact-label">Direct Technician</div>
@@ -203,7 +203,7 @@ $logisticsHtml
         $ServicesSummaryHtml
 
         <div class="hindi-section">
-          <div class="hindi-title">üöö $AreaName Se Equipment Kaise Bhejein? (Hindi/Hinglish Service Guide)</div>
+          <div class="hindi-title">?? $AreaName Se Equipment Kaise Bhejein? (Hindi/Hinglish Service Guide)</div>
           <p class="hindi-text">$HindiSummary</p>
         </div>
 
@@ -224,9 +224,9 @@ $faqsCombinedHtml
           <a href="#quote" class="btn btn-secondary open-quote-modal" data-track="area_quote">Request Repair Quote</a>
 
           <div style="margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--hairline); font-size: 13px; color: var(--muted-text); line-height: 1.5;">
-            üìç <strong>Workshop Base:</strong> Near Yadav Dharamshala, Circular Road, Jhajjar - 124103 (Haryana)<br>
-            ‚è± <strong>Hours:</strong> Open Mon‚ÄìSun, 9:00 AM ‚Äì 8:00 PM<br>
-            üõ° <strong>Warranty:</strong> 1-Month Protection Included
+            ?? <strong>Workshop Base:</strong> Near Yadav Dharamshala, Circular Road, Jhajjar - 124103 (Haryana)<br>
+            ? <strong>Hours:</strong> Open MonñSun, 9:00 AM ñ 8:00 PM<br>
+            ?? <strong>Warranty:</strong> 1-Month Protection Included
           </div>
         </div>
       </aside>
@@ -252,9 +252,9 @@ New-AreaPage `
   -AreaName "Delhi Industrial Belts" `
   -HeroH1 "Industrial Electronics &amp; VFD Repair Serving Delhi Factories" `
   -HeroLead "Component-level repair for VFD drives, PLCs, HMIs, injection moulding cards, and CNC press brake controllers. Serving manufacturing clusters in Bawana, Narela, Okhla, Mayapuri, and Mundka from our dedicated Jhajjar electronics laboratory." `
-  -GeoAnswer "Repair Q Electronics serves manufacturing facilities throughout Delhi (including Bawana, Narela, Okhla, Mayapuri, and Mundka industrial areas). We are physically located in Jhajjar, Haryana (45‚Äì65 km from West/North Delhi via Western Peripheral Expressway and Rohtak Road). We offer door-to-door courier pickup, direct drop-off, and zero visiting fee on-site inspection for critical factory shutdowns, backed by a 1-month warranty and 60%‚Äì70% savings vs OEM replacement." `
+  -GeoAnswer "Repair Q Electronics serves manufacturing facilities throughout Delhi (including Bawana, Narela, Okhla, Mayapuri, and Mundka industrial areas). We are physically located in Jhajjar, Haryana (45ñ65 km from West/North Delhi via Western Peripheral Expressway and Rohtak Road). We offer door-to-door courier pickup, direct drop-off, and zero visiting fee on-site inspection for critical factory shutdowns, backed by a 1-month warranty and 60%ñ70% savings vs OEM replacement." `
   -LogisticsFacts @{
-      Transit = "45‚Äì65 km (~1‚Äì1.5 hrs via KMP / Rohtak Rd)"
+      Transit = "45ñ65 km (~1ñ1.5 hrs via KMP / Rohtak Rd)"
   } `
   -IndustriesHtml @"
 <p>Delhi's diverse manufacturing pockets rely on industrial electronics across multiple sectors:</p>
@@ -334,10 +334,10 @@ New-AreaPage `
   -CanonicalPath "/areas/industrial-electronics-repair-gurugram/" `
   -AreaName "Gurugram (Gurgaon)" `
   -HeroH1 "Industrial Electronics &amp; VFD Repair Serving Gurugram" `
-  -HeroLead "Component-level electronics diagnostics for manufacturing units in Udyog Vihar (Phases I‚ÄìV), Sector 37 Pace City, Dundahera, and Behrampur. Workshop in Jhajjar with zero visiting charge for plant visits." `
-  -GeoAnswer "Repair Q Electronics provides rapid component-level automation repair for manufacturing plants in Gurugram (including Udyog Vihar, Sector 37 Pace City, and Dundahera). Located in Jhajjar, Haryana (45‚Äì50 km via Jhajjar-Gurugram Road), we provide zero visiting fee on-site diagnostics, direct equipment pickup, and emergency 24-hour bench turnaround with a 1-month warranty on all repaired VFDs, HMIs, and PLCs." `
+  -HeroLead "Component-level electronics diagnostics for manufacturing units in Udyog Vihar (Phases IñV), Sector 37 Pace City, Dundahera, and Behrampur. Workshop in Jhajjar with zero visiting charge for plant visits." `
+  -GeoAnswer "Repair Q Electronics provides rapid component-level automation repair for manufacturing plants in Gurugram (including Udyog Vihar, Sector 37 Pace City, and Dundahera). Located in Jhajjar, Haryana (45ñ50 km via Jhajjar-Gurugram Road), we provide zero visiting fee on-site diagnostics, direct equipment pickup, and emergency 24-hour bench turnaround with a 1-month warranty on all repaired VFDs, HMIs, and PLCs." `
   -LogisticsFacts @{
-      Transit = "45‚Äì50 km (~1 hour via Jhajjar-Gurugram Road / Farrukhnagar)"
+      Transit = "45ñ50 km (~1 hour via Jhajjar-Gurugram Road / Farrukhnagar)"
   } `
   -IndustriesHtml @"
 <p>Gurugram's industrial zones house leading precision engineering, automotive, and electronics manufacturers:</p>
@@ -360,16 +360,16 @@ New-AreaPage `
     </thead>
     <tbody>
       <tr>
-        <td><strong>Udyog Vihar (Phases I‚ÄìV)</strong></td>
+        <td><strong>Udyog Vihar (Phases IñV)</strong></td>
         <td>Via Farrukhnagar &amp; Dwarka Expressway</td>
         <td>~55 minutes</td>
-        <td>On-Site Visit (‚Çπ0 Fee) / Pickup</td>
+        <td>On-Site Visit (?0 Fee) / Pickup</td>
       </tr>
       <tr>
         <td><strong>Sector 37 (Pace City I &amp; II)</strong></td>
         <td>Via Jhajjar-Gurugram Rd / Hero Honda Chowk</td>
         <td>~45 minutes</td>
-        <td>On-Site Visit (‚Çπ0 Fee) / Pickup</td>
+        <td>On-Site Visit (?0 Fee) / Pickup</td>
       </tr>
       <tr>
         <td><strong>Dundahera &amp; Old Delhi Rd</strong></td>
@@ -389,7 +389,7 @@ New-AreaPage `
   <li><strong>HMI Panels:</strong> Siemens KTP700/KTP1200, Schneider Magelis, and Mitsubishi touch digitizer glass replacements.</li>
 </ul>
 "@ `
-  -HindiSummary "Gurgaon ki Udyog Vihar aur Sector 37 factories ke liye Jhajjar workshop se travel time sirf 45‚Äì55 minutes hai. Agar aapki machine breakdown ho jaye, toh Ajay turant plant visit karte hain aur koi visiting charge nahi lagta. Faulty VFD ya card ko lab me test karke 1 month warranty ke saath diya jata hai." `
+  -HindiSummary "Gurgaon ki Udyog Vihar aur Sector 37 factories ke liye Jhajjar workshop se travel time sirf 45ñ55 minutes hai. Agar aapki machine breakdown ho jaye, toh Ajay turant plant visit karte hain aur koi visiting charge nahi lagta. Faulty VFD ya card ko lab me test karke 1 month warranty ke saath diya jata hai." `
   -Faqs @(
     @{ Q = "How quickly can you attend an emergency breakdown in Udyog Vihar or Sector 37 Gurgaon?"; A = "Because our Jhajjar lab is connected via the Farrukhnagar corridor, we can arrive on-site within 60 to 90 minutes for urgent production-line shutdowns." },
     @{ Q = "Do you repair commercial HVAC chiller boards for Gurgaon corporate offices and malls?"; A = "Yes. We regularly repair Carrier ISM, Carrier IO boards, Trane Tracer cards, and York OptiView chiller control electronics." }
@@ -432,13 +432,13 @@ New-AreaPage `
         <td><strong>Sectors 1, 2 &amp; 3</strong></td>
         <td>Auto-ancillary &amp; Electronics</td>
         <td>~45 minutes</td>
-        <td>On-Site Inspection (‚Çπ0) / Pickup</td>
+        <td>On-Site Inspection (?0) / Pickup</td>
       </tr>
       <tr>
         <td><strong>Sectors 4 &amp; 5</strong></td>
         <td>Plastics &amp; Sheet Metal Fabrication</td>
         <td>~45 minutes</td>
-        <td>On-Site Inspection (‚Çπ0) / Pickup</td>
+        <td>On-Site Inspection (?0) / Pickup</td>
       </tr>
       <tr>
         <td><strong>Sectors 6, 7 &amp; 8</strong></td>
@@ -458,7 +458,7 @@ New-AreaPage `
   <li><strong>Press Brake CNCs:</strong> Cybelec DNC and Delem DA-52/DA-65W hydraulic bending synchronizers.</li>
 </ul>
 "@ `
-  -HindiSummary "IMT Manesar ke auto-parts aur moulding plants ke liye hamara Jhajjar lab KMP Expressway ke bilkul pass hai. Stoppage ke samay Ajay 45 minutes me factory pahunch kar on-site diagnosis karte hain bina kisi visiting charge ke. 1 month warranty ke sath 60‚Äì70% bachat hoti hai." `
+  -HindiSummary "IMT Manesar ke auto-parts aur moulding plants ke liye hamara Jhajjar lab KMP Expressway ke bilkul pass hai. Stoppage ke samay Ajay 45 minutes me factory pahunch kar on-site diagnosis karte hain bina kisi visiting charge ke. 1 month warranty ke sath 60ñ70% bachat hoti hai." `
   -Faqs @(
     @{ Q = "How far is your Jhajjar workshop from IMT Manesar?"; A = "Our workshop is approximately 40 km from IMT Manesar, reachable in about 45 minutes via the KMP Expressway or Farrukhnagar route." },
     @{ Q = "Can you repair Yaskawa and Delta servo drives used in Manesar auto lines?"; A = "Yes. We replace blown power output modules, optical feedback buffers, and gate circuits with dynamic motor coupling verification." }
@@ -473,9 +473,9 @@ New-AreaPage `
   -AreaName "Rohtak" `
   -HeroH1 "Industrial Electronics &amp; VFD Repair Serving Rohtak" `
   -HeroLead "Component-level repair for industrial drives, soft starters, and machine electronics serving Rohtak Industrial Area, IMT Rohtak, and Sunrise Industrial Estate from our Jhajjar laboratory." `
-  -GeoAnswer "Repair Q Electronics provides expert component-level industrial electronics repair for manufacturing units in Rohtak, Haryana. Physically located in neighbouring Jhajjar (only 35 km away via NH-334B), we offer the fastest turnaround in the region: same-day pickup, zero visiting fee factory visits, and 24‚Äì48 hour rush bench service with a 1-month repair warranty." `
+  -GeoAnswer "Repair Q Electronics provides expert component-level industrial electronics repair for manufacturing units in Rohtak, Haryana. Physically located in neighbouring Jhajjar (only 35 km away via NH-334B), we offer the fastest turnaround in the region: same-day pickup, zero visiting fee factory visits, and 24ñ48 hour rush bench service with a 1-month repair warranty." `
   -LogisticsFacts @{
-      Transit = "35 km (~35‚Äì40 minutes via NH-334B / Jhajjar-Rohtak Road)"
+      Transit = "35 km (~35ñ40 minutes via NH-334B / Jhajjar-Rohtak Road)"
   } `
   -IndustriesHtml @"
 <p>Rohtak's manufacturing ecosystem includes heavy engineering, automotive, and consumer manufacturing:</p>
@@ -501,13 +501,13 @@ New-AreaPage `
         <td><strong>Rohtak Industrial Area (Delhi Rd)</strong></td>
         <td>~33 km via NH-334B</td>
         <td>~35 minutes</td>
-        <td>On-Site (‚Çπ0 Fee) / Same-Day Pickup</td>
+        <td>On-Site (?0 Fee) / Same-Day Pickup</td>
       </tr>
       <tr>
         <td><strong>IMT Rohtak</strong></td>
         <td>~38 km via NH-334B</td>
         <td>~40 minutes</td>
-        <td>On-Site (‚Çπ0 Fee) / Same-Day Pickup</td>
+        <td>On-Site (?0 Fee) / Same-Day Pickup</td>
       </tr>
       <tr>
         <td><strong>Sunrise Industrial Estate</strong></td>
@@ -527,7 +527,7 @@ New-AreaPage `
   <li><strong>PLC &amp; HMI Hardware:</strong> Micro-soldering on power supply rails, communication transceivers, and touch digitizer replacements.</li>
 </ul>
 "@ `
-  -HindiSummary "Rohtak ke udyogpatiyon ke liye Jhajjar sirf 35 km door hai NH-334B ke raste. Naya drive lene ki bajaye aap wahi component-level repair hamare paas 60‚Äì70% kam kharch me karwa sakte hain. Zero visiting fee ke sath Ajay Rohtak factories me visit karte hain." `
+  -HindiSummary "Rohtak ke udyogpatiyon ke liye Jhajjar sirf 35 km door hai NH-334B ke raste. Naya drive lene ki bajaye aap wahi component-level repair hamare paas 60ñ70% kam kharch me karwa sakte hain. Zero visiting fee ke sath Ajay Rohtak factories me visit karte hain." `
   -Faqs @(
     @{ Q = "How fast can you pick up equipment from Rohtak Industrial Area?"; A = "Because Rohtak is only 35 km from our Jhajjar lab, we provide same-day pickup within 2 to 3 hours of your call." },
     @{ Q = "Do you provide testing certificates with repaired drives?"; A = "Yes. Every repaired VFD and soft starter is tested on our dynamic motor test rig and dispatched with documented test parameters." }
@@ -544,7 +544,7 @@ New-AreaPage `
   -HeroLead "Rapid component-level electronic troubleshooting for manufacturing units, supplier parks, and assembly facilities in HSIIDC Kharkhoda. Laboratory based in Jhajjar." `
   -GeoAnswer "Repair Q Electronics provides specialized component-level automation repair for factories in the rapidly expanding HSIIDC Kharkhoda industrial cluster. Located approximately 38 km away via the Western Peripheral Expressway (KMP), we offer zero visiting fee on-site inspection, scheduled pickup, and 24-hour rush bench diagnostics for VFD drives, servo controllers, and PLCs with a 1-month warranty." `
   -LogisticsFacts @{
-      Transit = "38 km (~35‚Äì40 minutes via Western Peripheral Expressway / KMP)"
+      Transit = "38 km (~35ñ40 minutes via Western Peripheral Expressway / KMP)"
   } `
   -IndustriesHtml @"
 <p>Kharkhoda is transforming into North India's largest automotive and engineering hub:</p>
@@ -590,7 +590,7 @@ New-AreaPage `
   <li><strong>PLC Racks &amp; Remote I/O:</strong> Hardware component repairs on Siemens S7-1500/1200 and Allen-Bradley ControlLogix platforms.</li>
 </ul>
 "@ `
-  -HindiSummary "Kharkhoda HSIIDC industrial area ke liye Jhajjar lab KMP Expressway ke jariye seedha juda hua hai. Factory me VFD trip ho ya automation board kharab ho, Ajay 35‚Äì40 minutes me on-site pahunch kar fault identify karte hain. Koi visiting charge nahi liya jata." `
+  -HindiSummary "Kharkhoda HSIIDC industrial area ke liye Jhajjar lab KMP Expressway ke jariye seedha juda hua hai. Factory me VFD trip ho ya automation board kharab ho, Ajay 35ñ40 minutes me on-site pahunch kar fault identify karte hain. Koi visiting charge nahi liya jata." `
   -Faqs @(
     @{ Q = "What is the transit time from your Jhajjar workshop to HSIIDC Kharkhoda?"; A = "Via the KMP Expressway, the distance is approximately 38 km and takes about 35 to 40 minutes under normal traffic." },
     @{ Q = "Can you repair heavy conveyor and paint-shop drives on an emergency basis?"; A = "Yes. We offer 24-hour priority rush turnaround for line-critical manufacturing equipment." }
@@ -607,7 +607,7 @@ New-AreaPage `
   -HeroLead "Fastest component-level repair for Modern Industrial Estate (M.I.E. Part A &amp; B) and footwear/light engineering units in Bahadurgarh from our nearby Jhajjar laboratory." `
   -GeoAnswer "Repair Q Electronics provides rapid component-level automation repair for manufacturing units in Bahadurgarh, Haryana. Located just 28 km away via the Jhajjar-Bahadurgarh Road (less than 35 minutes transit), we offer same-day factory pickup, zero visiting fee on-site diagnostics, and 24-hour rush bench repair on VFDs, injection moulding cards, and PLCs with a 1-month warranty." `
   -LogisticsFacts @{
-      Transit = "28 km (~30‚Äì35 minutes via Jhajjar-Bahadurgarh Road)"
+      Transit = "28 km (~30ñ35 minutes via Jhajjar-Bahadurgarh Road)"
   } `
   -IndustriesHtml @"
 <p>Bahadurgarh's industrial ecosystem is known for footwear, light engineering, and plastics:</p>
@@ -633,13 +633,13 @@ New-AreaPage `
         <td><strong>M.I.E. Part A</strong></td>
         <td>~28 km via Jhajjar-Bahadurgarh Rd</td>
         <td>~30 minutes</td>
-        <td>On-Site (‚Çπ0 Fee) / Rapid Pickup</td>
+        <td>On-Site (?0 Fee) / Rapid Pickup</td>
       </tr>
       <tr>
         <td><strong>M.I.E. Part B</strong></td>
         <td>~29 km via Jhajjar-Bahadurgarh Rd</td>
         <td>~32 minutes</td>
-        <td>On-Site (‚Çπ0 Fee) / Rapid Pickup</td>
+        <td>On-Site (?0 Fee) / Rapid Pickup</td>
       </tr>
       <tr>
         <td><strong>Sector 16 &amp; 17 Industrial Pocket</strong></td>

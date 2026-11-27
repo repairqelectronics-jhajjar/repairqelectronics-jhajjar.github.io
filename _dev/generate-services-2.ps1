@@ -1,6 +1,6 @@
-ï»¿# generate-services-2.ps1
+# generate-services-2.ps1
 param(
-  [string]$SiteUrl = "https://company-zeta-swart.vercel.app"
+  [string]$SiteUrl = "https://repairqelectronics.com"
 )
 
 . "c:\Users\Home\OneDrive\Desktop\repairq\generate-pages.ps1"
@@ -15,7 +15,7 @@ New-ServicePage `
   -ServiceName "Industrial Soft Starter Repair" `
   -HeroH1 "Industrial Soft Starter &amp; Motor Controller Repair" `
   -HeroLead "Component-level bench troubleshooting for heavy motor starters. SCR thyristor testing, firing pulse angle balancing, and bypass contactor diagnostic rebuilds." `
-  -GeoAnswer "Repair Q Electronics provides specialist component-level soft starter repair for manufacturing plants across Delhi NCR and Haryana. Operating from our Jhajjar lab, lead engineer Ajay tests anti-parallel SCR thyristors, restores gate firing control circuits, and services internal bypass contactors with a 1-month warranty and 48â€“72h turnaround, saving 60%â€“70% over purchasing new units." `
+  -GeoAnswer "Repair Q Electronics provides specialist component-level soft starter repair for manufacturing plants across Delhi NCR and Haryana. Operating from our Jhajjar lab, lead engineer Ajay tests anti-parallel SCR thyristors, restores gate firing control circuits, and services internal bypass contactors with a 1-month warranty and 48–72h turnaround, saving 60%–70% over purchasing new units." `
   -KeyFacts @{
       Type = "SCR &amp; Soft Starter Repair"
       Turnaround = "48 to 72 Hours"
@@ -69,7 +69,7 @@ New-ServicePage `
   -ProcessStepsHtml @"
 <ol>
   <li><strong>High-Voltage Isolation &amp; SCR Static Test:</strong> Measurement of forward blocking voltage, reverse leakage current, and gate-to-cathode resistance across all 6 SCRs.</li>
-  <li><strong>Gate Pulse Firing Scope Analysis:</strong> Verification of firing pulse angle (35Â° to 180Â°), firing symmetry, and gate trigger current across all three phases.</li>
+  <li><strong>Gate Pulse Firing Scope Analysis:</strong> Verification of firing pulse angle (35° to 180°), firing symmetry, and gate trigger current across all three phases.</li>
   <li><strong>Bypass Mechanism &amp; Snubber Circuit Overhaul:</strong> Cleaning, testing, and calibrating internal bypass contactors and replacing worn metal oxide varistors (MOVs).</li>
   <li><strong>Ramp-Up &amp; Current Limit Testing:</strong> Verification of soft start voltage ramp, current limit thresholds, and soft stop deceleration profiles under controlled load.</li>
 </ol>
@@ -89,7 +89,7 @@ New-ServicePage `
   -ServiceName "HMI Touchscreen &amp; Display Repair" `
   -HeroH1 "HMI Touchscreen, LCD &amp; Operator Terminal Repair" `
   -HeroLead "Industrial human-machine interface diagnostics. Resistive and capacitive touch digitizer glass replacement, LCD backlight restoration, and communication port micro-soldering." `
-  -GeoAnswer "Repair Q Electronics delivers precision component-level HMI panel repair in Jhajjar, serving factories in Gurgaon, Manesar, Rohtak, and Delhi NCR. We replace cracked or unresponsive 4-wire and 8-wire resistive digitizers, restore dark CCFL and LED backlights, and replace damaged RS-485, Profibus, and Ethernet transceiver ICs with a 1-month warranty and 24â€“48h rush turnaround." `
+  -GeoAnswer "Repair Q Electronics delivers precision component-level HMI panel repair in Jhajjar, serving factories in Gurgaon, Manesar, Rohtak, and Delhi NCR. We replace cracked or unresponsive 4-wire and 8-wire resistive digitizers, restore dark CCFL and LED backlights, and replace damaged RS-485, Profibus, and Ethernet transceiver ICs with a 1-month warranty and 24–48h rush turnaround." `
   -KeyFacts @{
       Type = "HMI &amp; Touchscreen Repair"
       Turnaround = "48 Hours Standard"
@@ -237,7 +237,7 @@ New-ServicePage `
   -ServiceName "Injection Moulding Cards &amp; Industrial PCBs" `
   -HeroH1 "Injection Moulding Machine Card &amp; Industrial PCB Repair" `
   -HeroLead "Micro-soldering and bench overhaul for plastic injection moulding cards, hot runner temperature controllers (HRTC), mould temperature controllers (MTC), Techmation boards, and Rexroth proportional valve amplifier cards." `
-  -GeoAnswer "Repair Q Electronics specializes in component-level repair of plastic injection moulding electronic cards in Jhajjar, Haryana, serving plastic and polymer manufacturing clusters across IMT Manesar, Bawana, Narela, Rohtak, and Bahadurgarh. Lead technician Ajay restores Techmation motherboards, HRTC cards, and Rexroth proportional pressure cards with a 1-month warranty and 24â€“48h emergency turnaround." `
+  -GeoAnswer "Repair Q Electronics specializes in component-level repair of plastic injection moulding electronic cards in Jhajjar, Haryana, serving plastic and polymer manufacturing clusters across IMT Manesar, Bawana, Narela, Rohtak, and Bahadurgarh. Lead technician Ajay restores Techmation motherboards, HRTC cards, and Rexroth proportional pressure cards with a 1-month warranty and 24–48h emergency turnaround." `
   -KeyFacts @{
       Type = "Moulding Card &amp; PCB Repair"
       Turnaround = "48 Hours Standard"
@@ -272,7 +272,7 @@ New-ServicePage `
       <tr>
         <td><strong>Proportional Valve Pressure Fluctuation</strong></td>
         <td>Operational amplifier drift, dried filter capacitors in Rexroth card.</td>
-        <td>Replace precision current-loop op-amps, calibrate 0â€“10V / 4â€“20mA outputs.</td>
+        <td>Replace precision current-loop op-amps, calibrate 0–10V / 4–20mA outputs.</td>
       </tr>
       <tr>
         <td><strong>Clamping / Injection Axis Position Error</strong></td>
@@ -298,7 +298,7 @@ New-ServicePage `
   -HindiSummary "Injection moulding factory me jab HRTC temperature card ya Techmation board kharab hota hai, toh machine band pad jaati hai. Hum Jhajjar lab me cards ke triac, op-amp aur power ICs ko replace karke simulate karte hain. Manesar, Bawana aur Narela ke plastics units ko 24-48 hours me repair service dete hain." `
   -Faqs @(
     @{ Q = "Can you repair multi-zone HRTC hot runner temperature controller cards?"; A = "Yes. We repair blown triac outputs, thermocouple sensor drift, and PID controller chips across all 4-zone to 24-zone systems." },
-    @{ Q = "How do you test Rexroth proportional amplifier cards?"; A = "We test proportional pressure and flow cards using electronic load simulators that measure coil current stability across the full 0â€“10V control command curve." }
+    @{ Q = "How do you test Rexroth proportional amplifier cards?"; A = "We test proportional pressure and flow cards using electronic load simulators that measure coil current stability across the full 0–10V control command curve." }
   )
 
 # Service 6: HVAC & Chiller Motherboards
@@ -310,7 +310,7 @@ New-ServicePage `
   -ServiceName "HVAC &amp; Chiller Motherboard Repair" `
   -HeroH1 "HVAC &amp; Commercial Chiller Motherboard Repair" `
   -HeroLead "Micro-electronic bench repair for central chiller plant control systems, compressor inverter drives, Carrier ISM/IO cards, ICVC displays, and Trane Tracer motherboards." `
-  -GeoAnswer "Repair Q Electronics provides specialized component-level repair for commercial HVAC and water-cooled/air-cooled chiller boards in Jhajjar, serving facility managers, hospitals, data centers, and manufacturing plants across Delhi NCR. We repair Carrier ISM, Carrier IO boards, ICVC displays, and Trane chiller motherboards with a 1-month warranty, saving facility owners 60%â€“70% compared to new OEM replacements." `
+  -GeoAnswer "Repair Q Electronics provides specialized component-level repair for commercial HVAC and water-cooled/air-cooled chiller boards in Jhajjar, serving facility managers, hospitals, data centers, and manufacturing plants across Delhi NCR. We repair Carrier ISM, Carrier IO boards, ICVC displays, and Trane chiller motherboards with a 1-month warranty, saving facility owners 60%–70% compared to new OEM replacements." `
   -KeyFacts @{
       Type = "Chiller Board Repair"
       Turnaround = "48 to 72 Hours"
@@ -382,7 +382,7 @@ New-ServicePage `
   -ServiceName "Press Brake &amp; CNC Controller Repair" `
   -HeroH1 "Press Brake &amp; CNC Controller Repair (Cybelec, Delem, ESA)" `
   -HeroLead "Component-level electronic restoration for hydraulic sheet bending press brake CNCs, backgauge axis cards, optical encoder feedback circuits, and operator console displays." `
-  -GeoAnswer "Repair Q Electronics provides expert component-level repair for CNC press brake controllers in Jhajjar, Haryana, serving metal fabrication and auto-ancillary factories across Delhi NCR. Lead technician Ajay repairs Cybelec (DNC 60/80, CybTouch), Delem (DA-52/56/65W/66T), and ESA bending controllers, axis drive boards, and power supplies with a 1-month warranty and 24â€“48h rush turnaround." `
+  -GeoAnswer "Repair Q Electronics provides expert component-level repair for CNC press brake controllers in Jhajjar, Haryana, serving metal fabrication and auto-ancillary factories across Delhi NCR. Lead technician Ajay repairs Cybelec (DNC 60/80, CybTouch), Delem (DA-52/56/65W/66T), and ESA bending controllers, axis drive boards, and power supplies with a 1-month warranty and 24–48h rush turnaround." `
   -KeyFacts @{
       Type = "CNC &amp; Press Brake Repair"
       Turnaround = "48 to 72 Hours"

@@ -1,6 +1,6 @@
-ï»¿# generate-supporting.ps1
+# generate-supporting.ps1
 param(
-  [string]$SiteUrl = "https://company-zeta-swart.vercel.app"
+  [string]$SiteUrl = "https://repairqelectronics.com"
 )
 
 . "c:\Users\Home\OneDrive\Desktop\repairq\generate-pages.ps1"
@@ -94,7 +94,7 @@ $(Get-HeaderHtml "about")
           Direct Summary: Who We Are
         </div>
         <p class="geo-answer-text">
-          Repair Q Electronics is an independent industrial automation electronics laboratory based in Jhajjar, Haryana. With over 5 years of specialized bench repair experience, proprietor Ajay repairs VFDs (0.5â€“500 HP), PLCs, HMIs, CNC controllers, and HVAC chiller boards at the component level. Operating 7 days a week (9 AM â€“ 8 PM) with zero visiting fees in primary service zones, we provide 60%â€“70% cost savings over OEM replacement, backed by a 1-month warranty.
+          Repair Q Electronics is an independent industrial automation electronics laboratory based in Jhajjar, Haryana. With over 5 years of specialized bench repair experience, proprietor Ajay repairs VFDs (0.5–500 HP), PLCs, HMIs, CNC controllers, and HVAC chiller boards at the component level. Operating 7 days a week (9 AM – 8 PM) with zero visiting fees in primary service zones, we provide 60%–70% cost savings over OEM replacement, backed by a 1-month warranty.
         </p>
       </div>
 
@@ -109,7 +109,7 @@ $(Get-HeaderHtml "about")
         </div>
         <div class="key-fact-item">
           <div class="key-fact-label">Operating Schedule</div>
-          <div class="key-fact-value">Monday to Sunday (9 AM â€“ 8 PM)</div>
+          <div class="key-fact-value">Monday to Sunday (9 AM – 8 PM)</div>
         </div>
         <div class="key-fact-item">
           <div class="key-fact-label">Standard Warranty</div>
@@ -127,7 +127,7 @@ $(Get-HeaderHtml "about")
           When an industrial VFD or automation card fails, OEM service representatives typically recommend replacing the entire complete unit. This creates astronomical costs, import delays of 4 to 8 weeks, and unnecessary electronic waste.
         </p>
         <p>
-          At <strong>Repair Q Electronics</strong>, we isolate the exact micro-components that have failed â€” such as shorted IGBT modules, degraded gate optocouplers, dry electrolytic capacitor banks, blown switching power supply ICs, or damaged RS-485 transceiver chips. By replacing only the damaged components with high-grade equivalents, we restore the original drive to factory operating parameters at a fraction of the cost.
+          At <strong>Repair Q Electronics</strong>, we isolate the exact micro-components that have failed — such as shorted IGBT modules, degraded gate optocouplers, dry electrolytic capacitor banks, blown switching power supply ICs, or damaged RS-485 transceiver chips. By replacing only the damaged components with high-grade equivalents, we restore the original drive to factory operating parameters at a fraction of the cost.
         </p>
 
         <h2>Laboratory Bench Diagnostic Infrastructure</h2>
@@ -142,7 +142,7 @@ $(Get-HeaderHtml "about")
 
         <h2>Commitment to Transparency &amp; No-Risk Service</h2>
         <ul>
-          <li><strong>Zero Visiting Fee:</strong> We charge â‚¹0 visiting fees for factory breakdowns across our primary service zones (Jhajjar, Bahadurgarh, Rohtak, Gurugram, Manesar, Kharkhoda).</li>
+          <li><strong>Zero Visiting Fee:</strong> We charge ?0 visiting fees for factory breakdowns across our primary service zones (Jhajjar, Bahadurgarh, Rohtak, Gurugram, Manesar, Kharkhoda).</li>
           <li><strong>No-Fix, No-Fee Guarantee:</strong> If an unserviceable condition prevents a reliable repair, you pay nothing for diagnostics.</li>
           <li><strong>1-Month Lab Warranty:</strong> Every repaired unit is sealed with our lab warranty mark and covered for 30 days.</li>
         </ul>
@@ -180,14 +180,14 @@ $contactHtml = @"
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#3f6212">
   <title>Contact Repair Q Electronics | Workshop in Jhajjar, Haryana</title>
-  <meta name="description" content="Contact Repair Q Electronics in Jhajjar, Haryana. Phone: +91 8307193825. Open Monâ€“Sun 9 AM â€“ 8 PM. Serving Delhi NCR with zero visiting fee on-site visits.">
+  <meta name="description" content="Contact Repair Q Electronics in Jhajjar, Haryana. Phone: +91 8307193825. Open Mon–Sun 9 AM – 8 PM. Serving Delhi NCR with zero visiting fee on-site visits.">
   <link rel="canonical" href="$SiteUrl/contact/">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_IN">
   <meta property="og:site_name" content="Repair Q Electronics">
   <meta property="og:url" content="$SiteUrl/contact/">
   <meta property="og:title" content="Contact Repair Q Electronics | Workshop in Jhajjar, Haryana">
-  <meta property="og:description" content="Contact Repair Q Electronics in Jhajjar, Haryana. Phone: +91 8307193825. Open Monâ€“Sun 9 AM â€“ 8 PM. Serving Delhi NCR with zero visiting fee on-site visits.">
+  <meta property="og:description" content="Contact Repair Q Electronics in Jhajjar, Haryana. Phone: +91 8307193825. Open Mon–Sun 9 AM – 8 PM. Serving Delhi NCR with zero visiting fee on-site visits.">
   <meta property="og:image" content="$SiteUrl/logo.jpg">
   <link rel="icon" type="image/jpeg" href="/logo.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -277,11 +277,11 @@ $(Get-HeaderHtml "contact")
         </div>
         <div class="key-fact-item">
           <div class="key-fact-label">Operating Schedule</div>
-          <div class="key-fact-value">Open All 7 Days (9 AM â€“ 8 PM)</div>
+          <div class="key-fact-value">Open All 7 Days (9 AM – 8 PM)</div>
         </div>
         <div class="key-fact-item">
           <div class="key-fact-label">On-Site Visiting Fee</div>
-          <div class="key-fact-value">â‚¹0 (No Visiting Fee in Service Area)</div>
+          <div class="key-fact-value">?0 (No Visiting Fee in Service Area)</div>
         </div>
       </div>
     </div>
@@ -342,14 +342,14 @@ $resourceHtml = @"
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#3f6212">
   <title>VFD Repair vs Replace Cost Guide | Industrial Electronics Analysis India</title>
-  <meta name="description" content="Technical and economic comparison: Should you repair or replace a faulty industrial VFD drive? Save 60%â€“70% with component-level repair in India.">
+  <meta name="description" content="Technical and economic comparison: Should you repair or replace a faulty industrial VFD drive? Save 60%–70% with component-level repair in India.">
   <link rel="canonical" href="$SiteUrl/resources/repair-vs-replace-vfd/">
   <meta property="og:type" content="article">
   <meta property="og:locale" content="en_IN">
   <meta property="og:site_name" content="Repair Q Electronics">
   <meta property="og:url" content="$SiteUrl/resources/repair-vs-replace-vfd/">
   <meta property="og:title" content="VFD Repair vs Replace Cost Guide | Industrial Electronics Analysis India">
-  <meta property="og:description" content="Technical and economic comparison: Should you repair or replace a faulty industrial VFD drive? Save 60%â€“70% with component-level repair in India.">
+  <meta property="og:description" content="Technical and economic comparison: Should you repair or replace a faulty industrial VFD drive? Save 60%–70% with component-level repair in India.">
   <meta property="og:image" content="$SiteUrl/vfd-drives.webp">
   <link rel="icon" type="image/jpeg" href="/logo.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -418,7 +418,7 @@ $(Get-HeaderHtml "resources")
           Direct Summary: When to Repair vs Replace a VFD
         </div>
         <p class="geo-answer-text">
-          Component-level repair makes financial and operational sense for 85%+ of industrial VFD failures, typically saving 60%â€“70% compared to new unit costs. A replacement is only recommended if severe PCB trace carbonization has destroyed the multilayer fiberglass substrate or if replacement components for obsolete microchips are genuinely unobtainable.
+          Component-level repair makes financial and operational sense for 85%+ of industrial VFD failures, typically saving 60%–70% compared to new unit costs. A replacement is only recommended if severe PCB trace carbonization has destroyed the multilayer fiberglass substrate or if replacement components for obsolete microchips are genuinely unobtainable.
         </p>
       </div>
     </div>
@@ -440,7 +440,7 @@ $(Get-HeaderHtml "resources")
             <tbody>
               <tr>
                 <td><strong>Financial Cost</strong></td>
-                <td><strong>30% to 40% of new unit price</strong> (60%â€“70% net plant savings).</td>
+                <td><strong>30% to 40% of new unit price</strong> (60%–70% net plant savings).</td>
                 <td>100% full replacement hardware cost + import freight &amp; duties.</td>
               </tr>
               <tr>

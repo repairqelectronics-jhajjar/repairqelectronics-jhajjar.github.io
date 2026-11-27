@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
-    <loc>https://company-zeta-swart.vercel.app/</loc>
+    <loc>https://repairqelectronics.com/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -10,13 +10,13 @@
 
   <!-- About & Contact -->
   <url>
-    <loc>https://company-zeta-swart.vercel.app/about/</loc>
+    <loc>https://repairqelectronics.com/about/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://company-zeta-swart.vercel.app/contact/</loc>
+    <loc>https://repairqelectronics.com/contact/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -24,49 +24,49 @@
 
   <!-- Service Pages -->
   <url>
-    <loc>https://company-zeta-swart.vercel.app/services/vfd-repair-jhajjar/</loc>
+    <loc>https://repairqelectronics.com/services/vfd-repair-jhajjar/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://company-zeta-swart.vercel.app/services/soft-starter-repair/</loc>
+    <loc>https://repairqelectronics.com/services/soft-starter-repair/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://company-zeta-swart.vercel.app/services/hmi-touchscreen-repair/</loc>
+    <loc>https://repairqelectronics.com/services/hmi-touchscreen-repair/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://company-zeta-swart.vercel.app/services/plc-repair/</loc>
+    <loc>https://repairqelectronics.com/services/plc-repair/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://company-zeta-swart.vercel.app/services/injection-moulding-card-repair/</loc>
+    <loc>https://repairqelectronics.com/services/injection-moulding-card-repair/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://company-zeta-swart.vercel.app/services/hvac-chiller-motherboard-repair/</loc>
+    <loc>https://repairqelectronics.com/services/hvac-chiller-motherboard-repair/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://company-zeta-swart.vercel.app/services/press-brake-cnc-controller-repair/</loc>
+    <loc>https://repairqelectronics.com/services/press-brake-cnc-controller-repair/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://company-zeta-swart.vercel.app/services/on-site-industrial-electronics-service/</loc>
+    <loc>https://repairqelectronics.com/services/on-site-industrial-electronics-service/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
@@ -74,37 +74,37 @@
 
   <!-- Geographic Area Pages -->
   <url>
-    <loc>https://company-zeta-swart.vercel.app/areas/industrial-electronics-repair-delhi/</loc>
+    <loc>https://repairqelectronics.com/areas/industrial-electronics-repair-delhi/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://company-zeta-swart.vercel.app/areas/industrial-electronics-repair-gurugram/</loc>
+    <loc>https://repairqelectronics.com/areas/industrial-electronics-repair-gurugram/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://company-zeta-swart.vercel.app/areas/industrial-electronics-repair-manesar/</loc>
+    <loc>https://repairqelectronics.com/areas/industrial-electronics-repair-manesar/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://company-zeta-swart.vercel.app/areas/industrial-electronics-repair-rohtak/</loc>
+    <loc>https://repairqelectronics.com/areas/industrial-electronics-repair-rohtak/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://company-zeta-swart.vercel.app/areas/industrial-electronics-repair-kharkhoda/</loc>
+    <loc>https://repairqelectronics.com/areas/industrial-electronics-repair-kharkhoda/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://company-zeta-swart.vercel.app/areas/industrial-electronics-repair-bahadurgarh/</loc>
+    <loc>https://repairqelectronics.com/areas/industrial-electronics-repair-bahadurgarh/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
@@ -112,13 +112,13 @@
 
   <!-- Resources & Blog -->
   <url>
-    <loc>https://company-zeta-swart.vercel.app/blog/</loc>
+    <loc>https://repairqelectronics.com/blog/</loc>
     <lastmod>2026-11-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://company-zeta-swart.vercel.app/resources/repair-vs-replace-vfd/</loc>
+    <loc>https://repairqelectronics.com/resources/repair-vs-replace-vfd/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>

@@ -1,8 +1,8 @@
-﻿# generate-pages.ps1
+# generate-pages.ps1
 # Generates multi-page architecture for Repair Q Electronics
-# Production URL: https://company-zeta-swart.vercel.app
+# Production URL: https://repairqelectronics.com
 
-$SITE_URL = "https://company-zeta-swart.vercel.app"
+$SITE_URL = "https://repairqelectronics.com"
 $ROOT_DIR = "c:\Users\Home\OneDrive\Desktop\repairq"
 
 function Get-HeaderHtml($activePage) {
@@ -90,7 +90,7 @@ function Get-HeaderHtml($activePage) {
           repairqelectronics@gmail.com
         </a>
         <div class="drawer-location">
-          📍 Near Yadav Dharamshala, Circular Road, Jhajjar - 124103 (Haryana)
+          ?? Near Yadav Dharamshala, Circular Road, Jhajjar - 124103 (Haryana)
         </div>
       </div>
       <a href="#quote" class="btn btn-primary open-quote-modal" style="width: 100%; margin-top: 16px;">Request a Repair Quote</a>

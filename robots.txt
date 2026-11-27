@@ -1,5 +1,5 @@
-# robots.txt for Repair Q Electronics
-# Production Site URL: https://company-zeta-swart.vercel.app
+﻿# robots.txt for Repair Q Electronics
+# Production Site URL: https://repairqelectronics.com
 
 User-agent: *
 Allow: /
@@ -39,4 +39,4 @@ User-agent: Applebot-Extended
 Allow: /
 
 # Sitemap Reference (Single Source of Truth)
-Sitemap: https://company-zeta-swart.vercel.app/sitemap.xml
+Sitemap: https://repairqelectronics.com/sitemap.xml

@@ -1,6 +1,6 @@
-﻿# generate-services.ps1
+# generate-services.ps1
 param(
-  [string]$SiteUrl = "https://company-zeta-swart.vercel.app"
+  [string]$SiteUrl = "https://repairqelectronics.com"
 )
 
 . "c:\Users\Home\OneDrive\Desktop\repairq\generate-pages.ps1"
@@ -14,14 +14,14 @@ $vfdHtml = @"
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#3f6212">
   <title>VFD &amp; Servo Drive Repair Jhajjar | AC Inverter Diagnostics Delhi NCR</title>
-  <meta name="description" content="Component-level VFD repair (0.5HP–500HP) in Jhajjar, Haryana. Danfoss, Siemens, ABB, Delta, Yaskawa IGBT &amp; gate driver rebuilds with 1-month warranty.">
+  <meta name="description" content="Component-level VFD repair (0.5HP�500HP) in Jhajjar, Haryana. Danfoss, Siemens, ABB, Delta, Yaskawa IGBT &amp; gate driver rebuilds with 1-month warranty.">
   <link rel="canonical" href="$SiteUrl/services/vfd-repair-jhajjar/">
   <meta property="og:type" content="article">
   <meta property="og:locale" content="en_IN">
   <meta property="og:site_name" content="Repair Q Electronics">
   <meta property="og:url" content="$SiteUrl/services/vfd-repair-jhajjar/">
   <meta property="og:title" content="VFD &amp; Servo Drive Repair Jhajjar | AC Inverter Diagnostics Delhi NCR">
-  <meta property="og:description" content="Component-level VFD repair (0.5HP–500HP) in Jhajjar, Haryana. Danfoss, Siemens, ABB, Delta, Yaskawa IGBT &amp; gate driver rebuilds with 1-month warranty.">
+  <meta property="og:description" content="Component-level VFD repair (0.5HP�500HP) in Jhajjar, Haryana. Danfoss, Siemens, ABB, Delta, Yaskawa IGBT &amp; gate driver rebuilds with 1-month warranty.">
   <meta property="og:image" content="$SiteUrl/vfd-drives.webp">
   <link rel="icon" type="image/jpeg" href="/logo.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -128,7 +128,7 @@ $(Get-HeaderHtml "vfd")
           Direct Summary: How VFD Repair Works at Repair Q
         </div>
         <p class="geo-answer-text">
-          Repair Q Electronics provides 24–48 hour rush component-level VFD repair in Jhajjar, Haryana, serving Delhi NCR factories. Rather than replacing expensive drive assemblies, lead technician Ajay rebuilds blown IGBT modules, high-speed gate driver optocouplers, DC bus capacitors, and switched-mode power supplies (SMPS) with a 1-month warranty, saving 60%–70% vs OEM replacement.
+          Repair Q Electronics provides 24�48 hour rush component-level VFD repair in Jhajjar, Haryana, serving Delhi NCR factories. Rather than replacing expensive drive assemblies, lead technician Ajay rebuilds blown IGBT modules, high-speed gate driver optocouplers, DC bus capacitors, and switched-mode power supplies (SMPS) with a 1-month warranty, saving 60%�70% vs OEM replacement.
         </p>
       </div>
 
@@ -152,7 +152,7 @@ $(Get-HeaderHtml "vfd")
         </div>
         <div class="key-fact-item">
           <div class="key-fact-label">Visiting Charge</div>
-          <div class="key-fact-value">₹0 (Zero Visiting Fee)</div>
+          <div class="key-fact-value">?0 (Zero Visiting Fee)</div>
         </div>
         <div class="key-fact-item">
           <div class="key-fact-label">Direct Technician</div>
@@ -236,7 +236,7 @@ $(Get-HeaderHtml "vfd")
 
         <!-- Hindi/Hinglish Supporting Section -->
         <div class="hindi-section">
-          <div class="hindi-title">⚙️ VFD Drive Repair Kaise Hota Hai? (Hindi/Hinglish Summary)</div>
+          <div class="hindi-title">?? VFD Drive Repair Kaise Hota Hai? (Hindi/Hinglish Summary)</div>
           <p class="hindi-text">
             Jab aapka VFD drive trip hota hai ya Overcurrent (OC), Overvoltage (OV), ya Dead Display dikhata hai, toh naya drive khareedne ki zaroorat nahi hai. Hum Jhajjar lab me drive ko kholkar multimeter aur oscilloscope par test karte hain. Blown IGBT module, gate driver circuit, aur DC bus capacitors ko replace karke dynamic motor load par chala kar test karte hain. 1 month ki complete warranty milti hai aur aapke 60% se 70% paise bachte hain.
           </p>
@@ -271,9 +271,9 @@ $(Get-HeaderHtml "vfd")
           <a href="#quote" class="btn btn-secondary open-quote-modal" data-track="sidebar_quote">Request Formal Quote</a>
 
           <div style="margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--hairline); font-size: 13px; color: var(--muted-text); line-height: 1.5;">
-            📍 <strong>Workshop:</strong> Near Yadav Dharamshala, Circular Road, Jhajjar - 124103<br>
-            ⏱ <strong>Hours:</strong> Open Mon–Sun, 9:00 AM – 8:00 PM<br>
-            🛡 <strong>Protection:</strong> 1-Month Warranty Included
+            ?? <strong>Workshop:</strong> Near Yadav Dharamshala, Circular Road, Jhajjar - 124103<br>
+            ? <strong>Hours:</strong> Open Mon�Sun, 9:00 AM � 8:00 PM<br>
+            ?? <strong>Protection:</strong> 1-Month Warranty Included
           </div>
         </div>
       </aside>
@@ -400,7 +400,7 @@ $faqsCombinedJson
         </div>
         <div class="key-fact-item">
           <div class="key-fact-label">Visiting Charge</div>
-          <div class="key-fact-value">₹0 (Zero Visiting Fee)</div>
+          <div class="key-fact-value">?0 (Zero Visiting Fee)</div>
         </div>
         <div class="key-fact-item">
           <div class="key-fact-label">Lead Technician</div>
@@ -489,7 +489,7 @@ $keyFactsHtml
         $ProcessStepsHtml
 
         <div class="hindi-section">
-          <div class="hindi-title">⚙️ $ServiceName Repair Kaise Hota Hai? (Hindi/Hinglish Summary)</div>
+          <div class="hindi-title">?? $ServiceName Repair Kaise Hota Hai? (Hindi/Hinglish Summary)</div>
           <p class="hindi-text">$HindiSummary</p>
         </div>
 
@@ -510,9 +510,9 @@ $faqsCombinedHtml
           <a href="#quote" class="btn btn-secondary open-quote-modal" data-track="sidebar_quote">Request Formal Quote</a>
 
           <div style="margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--hairline); font-size: 13px; color: var(--muted-text); line-height: 1.5;">
-            📍 <strong>Workshop:</strong> Near Yadav Dharamshala, Circular Road, Jhajjar - 124103<br>
-            ⏱ <strong>Hours:</strong> Open Mon–Sun, 9:00 AM – 8:00 PM<br>
-            🛡 <strong>Protection:</strong> 1-Month Warranty Included
+            ?? <strong>Workshop:</strong> Near Yadav Dharamshala, Circular Road, Jhajjar - 124103<br>
+            ? <strong>Hours:</strong> Open Mon�Sun, 9:00 AM � 8:00 PM<br>
+            ?? <strong>Protection:</strong> 1-Month Warranty Included
           </div>
         </div>
       </aside>

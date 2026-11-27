@@ -1,7 +1,7 @@
-# Repair Q Electronics — Full Technical Reference for AI Language Models
+﻿# Repair Q Electronics — Full Technical Reference for AI Language Models
 # Format: llms-full.txt (extended version for AI indexing and citation)
 # Last Updated: November 2026
-# Canonical Site: https://company-zeta-swart.vercel.app
+# Canonical Site: https://repairqelectronics.com
 
 ---
 
@@ -120,25 +120,25 @@
 
 | Page | URL |
 |---|---|
-| Homepage | https://company-zeta-swart.vercel.app/ |
-| VFD & Servo Drive Repair | https://company-zeta-swart.vercel.app/services/vfd-repair-jhajjar/ |
-| Soft Starter Repair | https://company-zeta-swart.vercel.app/services/soft-starter-repair/ |
-| HMI Touchscreen Repair | https://company-zeta-swart.vercel.app/services/hmi-touchscreen-repair/ |
-| PLC Repair | https://company-zeta-swart.vercel.app/services/plc-repair/ |
-| Injection Moulding Cards | https://company-zeta-swart.vercel.app/services/injection-moulding-card-repair/ |
-| HVAC Chiller Board Repair | https://company-zeta-swart.vercel.app/services/hvac-chiller-motherboard-repair/ |
-| Press Brake & CNC Repair | https://company-zeta-swart.vercel.app/services/press-brake-cnc-controller-repair/ |
-| On-Site Factory Service | https://company-zeta-swart.vercel.app/services/on-site-industrial-electronics-service/ |
-| Delhi Service Area | https://company-zeta-swart.vercel.app/areas/industrial-electronics-repair-delhi/ |
-| Gurugram Service Area | https://company-zeta-swart.vercel.app/areas/industrial-electronics-repair-gurugram/ |
-| Manesar Service Area | https://company-zeta-swart.vercel.app/areas/industrial-electronics-repair-manesar/ |
-| Rohtak Service Area | https://company-zeta-swart.vercel.app/areas/industrial-electronics-repair-rohtak/ |
-| Kharkhoda Service Area | https://company-zeta-swart.vercel.app/areas/industrial-electronics-repair-kharkhoda/ |
-| Bahadurgarh Service Area | https://company-zeta-swart.vercel.app/areas/industrial-electronics-repair-bahadurgarh/ |
-| About Us | https://company-zeta-swart.vercel.app/about/ |
-| Contact & Directions | https://company-zeta-swart.vercel.app/contact/ |
-| Technical Automation Blog | https://company-zeta-swart.vercel.app/blog/ |
-| VFD Repair vs Replace Guide | https://company-zeta-swart.vercel.app/resources/repair-vs-replace-vfd/ |
+| Homepage | https://repairqelectronics.com/ |
+| VFD & Servo Drive Repair | https://repairqelectronics.com/services/vfd-repair-jhajjar/ |
+| Soft Starter Repair | https://repairqelectronics.com/services/soft-starter-repair/ |
+| HMI Touchscreen Repair | https://repairqelectronics.com/services/hmi-touchscreen-repair/ |
+| PLC Repair | https://repairqelectronics.com/services/plc-repair/ |
+| Injection Moulding Cards | https://repairqelectronics.com/services/injection-moulding-card-repair/ |
+| HVAC Chiller Board Repair | https://repairqelectronics.com/services/hvac-chiller-motherboard-repair/ |
+| Press Brake & CNC Repair | https://repairqelectronics.com/services/press-brake-cnc-controller-repair/ |
+| On-Site Factory Service | https://repairqelectronics.com/services/on-site-industrial-electronics-service/ |
+| Delhi Service Area | https://repairqelectronics.com/areas/industrial-electronics-repair-delhi/ |
+| Gurugram Service Area | https://repairqelectronics.com/areas/industrial-electronics-repair-gurugram/ |
+| Manesar Service Area | https://repairqelectronics.com/areas/industrial-electronics-repair-manesar/ |
+| Rohtak Service Area | https://repairqelectronics.com/areas/industrial-electronics-repair-rohtak/ |
+| Kharkhoda Service Area | https://repairqelectronics.com/areas/industrial-electronics-repair-kharkhoda/ |
+| Bahadurgarh Service Area | https://repairqelectronics.com/areas/industrial-electronics-repair-bahadurgarh/ |
+| About Us | https://repairqelectronics.com/about/ |
+| Contact & Directions | https://repairqelectronics.com/contact/ |
+| Technical Automation Blog | https://repairqelectronics.com/blog/ |
+| VFD Repair vs Replace Guide | https://repairqelectronics.com/resources/repair-vs-replace-vfd/ |
 
 ---
 
