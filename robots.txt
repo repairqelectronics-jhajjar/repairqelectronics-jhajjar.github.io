@@ -3,40 +3,71 @@
 
 User-agent: *
 Allow: /
+Disallow: /_dev/
 
 # Reputable Search Engines & AI Crawlers (Search & GEO Allowed)
 User-agent: Googlebot
 Allow: /
+Disallow: /_dev/
 
 User-agent: Bingbot
 Allow: /
+Disallow: /_dev/
 
 User-agent: Google-Extended
 Allow: /
+Disallow: /_dev/
 
 User-agent: OAI-SearchBot
 Allow: /
+Disallow: /_dev/
 
 User-agent: GPTBot
 Allow: /
+Disallow: /_dev/
 
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /_dev/
 
 User-agent: PerplexityBot
 Allow: /
+Disallow: /_dev/
 
 User-agent: ClaudeBot
 Allow: /
+Disallow: /_dev/
 
 User-agent: Claude-SearchBot
 Allow: /
+Disallow: /_dev/
 
 User-agent: Applebot
 Allow: /
+Disallow: /_dev/
 
 User-agent: Applebot-Extended
 Allow: /
+Disallow: /_dev/
+
+User-agent: Amazonbot
+Allow: /
+Disallow: /_dev/
+
+User-agent: Meta-ExternalAgent
+Allow: /
+Disallow: /_dev/
+
+User-agent: ByteSpider
+Allow: /
+Disallow: /_dev/
+
+User-agent: cohere-ai
+Allow: /
+Disallow: /_dev/
+
+# Preferred Host
+Host: repairqelectronics.com
 
 # Sitemap Reference (Single Source of Truth)
 Sitemap: https://repairqelectronics.com/sitemap.xml
