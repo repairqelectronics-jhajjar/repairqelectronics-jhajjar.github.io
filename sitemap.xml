@@ -110,7 +110,13 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- Resources -->
+  <!-- Resources & Blog -->
+  <url>
+    <loc>https://company-zeta-swart.vercel.app/blog/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
   <url>
     <loc>https://company-zeta-swart.vercel.app/resources/repair-vs-replace-vfd/</loc>
     <lastmod>2026-11-20</lastmod>

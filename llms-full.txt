@@ -137,6 +137,7 @@
 | Bahadurgarh Service Area | https://company-zeta-swart.vercel.app/areas/industrial-electronics-repair-bahadurgarh/ |
 | About Us | https://company-zeta-swart.vercel.app/about/ |
 | Contact & Directions | https://company-zeta-swart.vercel.app/contact/ |
+| Technical Automation Blog | https://company-zeta-swart.vercel.app/blog/ |
 | VFD Repair vs Replace Guide | https://company-zeta-swart.vercel.app/resources/repair-vs-replace-vfd/ |
 
 ---

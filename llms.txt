@@ -37,4 +37,5 @@
 ## Website & Canonical References
 - Homepage: https://company-zeta-swart.vercel.app/
 - Service Catalog: https://company-zeta-swart.vercel.app/#services
+- Technical Automation Blog: https://company-zeta-swart.vercel.app/blog/
 - Contact & Emergency Line: tel:+918307193825 / https://wa.me/918307193825

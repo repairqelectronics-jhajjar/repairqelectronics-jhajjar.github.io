@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#3f6212">
+  <title>Technical Automation Blog &amp; Repair Guides | Repair Q Electronics</title>
+  <meta name="description" content="Technical guides, fault code troubleshooting, and cost analysis for industrial automation equipment: VFDs, PLCs, HMIs, and CNC controllers from Repair Q Electronics.">
+  <link rel="canonical" href="https://company-zeta-swart.vercel.app/blog/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:site_name" content="Repair Q Electronics">
+  <meta property="og:url" content="https://company-zeta-swart.vercel.app/blog/">
+  <meta property="og:title" content="Technical Automation Blog &amp; Repair Guides | Repair Q Electronics">
+  <meta property="og:description" content="Technical guides, fault code troubleshooting, and cost analysis for industrial automation equipment: VFDs, PLCs, HMIs, and CNC controllers from Repair Q Electronics.">
+  <meta property="og:image" content="https://company-zeta-swart.vercel.app/logo.jpg">
+  <link rel="icon" type="image/jpeg" href="/logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://company-zeta-swart.vercel.app/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://company-zeta-swart.vercel.app/blog/" }
+        ]
+      },
+      {
+        "@type": "CollectionPage",
+        "@id": "https://company-zeta-swart.vercel.app/blog/#collection",
+        "name": "Technical Automation Blog & Repair Guides",
+        "description": "Component-level repair walkthroughs, error code troubleshooting, and industrial electronics capex analysis.",
+        "url": "https://company-zeta-swart.vercel.app/blog/",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Repair Q Electronics",
+          "url": "https://company-zeta-swart.vercel.app/"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Google tag (gtag.js) — Replace G-XXXXXXXXXX with your real GA4 Measurement ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+</head>
+<body>
+  <!-- Site Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="/" class="brand-link" aria-label="Repair Q Electronics Home">
+        <div class="brand-icon-box" aria-hidden="true">
+          <img src="/logo.jpg" alt="Repair Q Electronics Emblem Logo" class="brand-logo-img">
+        </div>
+        <div class="brand-title-group">
+          <div class="brand-name">Repair<span>Q</span> Electronics</div>
+          <div class="brand-sub">Automation &amp; Electronics Lab</div>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-desktop" aria-label="Main Navigation">
+        <a href="/#services">What We Repair</a>
+        <a href="/services/vfd-repair-jhajjar/">VFD Drives</a>
+        <a href="/services/press-brake-cnc-controller-repair/">CNC &amp; Press Brake</a>
+        <a href="/areas/industrial-electronics-repair-delhi/">Service Areas</a>
+        <a href="/#process">Testing Lab</a>
+        <a href="/#faq">FAQs</a>
+        <a href="/blog/" style="color:var(--primary-action-fill); font-weight:700;">Blog</a>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-right">
+        <a href="tel:8307193825" class="header-phone-badge" aria-label="Call Ajay">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          Ajay: 8307193825
+        </a>
+        <a href="#quote" class="btn btn-primary open-quote-modal">Get Quote</a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="menuToggle" class="menu-toggle-btn" aria-label="Open mobile navigation" aria-expanded="false" aria-controls="mobileNavPanel">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div id="mobileNavOverlay" class="mobile-nav-overlay" aria-hidden="true"></div>
+  <aside id="mobileNavPanel" class="mobile-nav-panel" aria-label="Mobile Navigation" aria-hidden="true">
+    <div class="mobile-nav-header">
+      <div class="brand-link">
+        <div class="brand-icon-box" style="width: 32px; height: 32px;">
+          <img src="/logo.jpg" alt="Repair Q Electronics Logo" class="brand-logo-img">
+        </div>
+        <div class="brand-name">Repair<span>Q</span></div>
+      </div>
+      <button id="closeMenuBtn" class="drawer-close-btn" aria-label="Close navigation">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+    
+    <div class="mobile-nav-body">
+      <ul class="mobile-nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/services/vfd-repair-jhajjar/">VFD &amp; Servo Drive Repair</a></li>
+        <li><a href="/services/soft-starter-repair/">Soft Starter Repair</a></li>
+        <li><a href="/services/hmi-touchscreen-repair/">HMI Touchscreen Repair</a></li>
+        <li><a href="/services/plc-repair/">PLC System Repair</a></li>
+        <li><a href="/services/injection-moulding-card-repair/">Injection Moulding Cards</a></li>
+        <li><a href="/services/hvac-chiller-motherboard-repair/">HVAC &amp; Chiller Boards</a></li>
+        <li><a href="/services/press-brake-cnc-controller-repair/">CNC &amp; Press Brake Controllers</a></li>
+        <li><a href="/services/on-site-industrial-electronics-service/">On-Site Factory Service</a></li>
+        <li><a href="/areas/industrial-electronics-repair-delhi/">Delhi NCR Service Areas</a></li>
+        <li><a href="/blog/">Technical Automation Blog</a></li>
+      </ul>
+
+      <div class="mobile-drawer-contact">
+        <div class="drawer-contact-title">Direct Technician Line</div>
+        <a href="tel:8307193825" class="drawer-phone-link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          Ajay: +91 8307193825
+        </a>
+        <a href="mailto:repairqelectronics@gmail.com" class="drawer-email-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          repairqelectronics@gmail.com
+        </a>
+        <div class="drawer-location">
+          📍 Near Yadav Dharamshala, Circular Road, Jhajjar - 124103 (Haryana)
+        </div>
+      </div>
+      <a href="#quote" class="btn btn-primary open-quote-modal" style="width: 100%; margin-top: 16px;">Request a Repair Quote</a>
+    </div>
+  </aside>
+
+  <!-- Inner Hero Section -->
+  <section class="inner-hero">
+    <div class="container">
+      <nav class="breadcrumbs-nav" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="breadcrumbs-sep">/</span>
+        <span>Blog</span>
+      </nav>
+
+      <div class="section-tag">
+        <span class="section-tag-dot"></span>
+        Industrial Repair Insights &amp; Guides
+      </div>
+
+      <h1 class="inner-hero-h1">Technical Automation Blog</h1>
+      <p class="inner-hero-lead">
+        Practical troubleshooting walkthroughs, component-level diagnostic breakdowns, fault code explanations, and capex cost comparisons direct from our Jhajjar repair laboratory.
+      </p>
+
+      <div class="geo-answer-card">
+        <div class="geo-answer-title">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          About Our Technical Knowledge Base
+        </div>
+        <p class="geo-answer-text">
+          Written by lead engineer <strong>Ajay</strong> (5+ years component-level repair experience), these engineering guides help plant heads, maintenance managers, and automation technicians diagnose faulty VFD drives, PLCs, HMIs, and CNC controllers before committing to expensive OEM replacement.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Blog Articles Grid -->
+  <section class="tech-content-section" style="padding-top: 40px; padding-bottom: 80px;">
+    <div class="container">
+      <div class="blog-grid" style="margin-top: 0;">
+        <!-- Blog Card 1 -->
+        <article class="blog-card">
+          <div class="blog-card-badge-row">
+            <span class="blog-badge">Cost Analysis &amp; Capex</span>
+            <span class="blog-read-time">5 min read</span>
+          </div>
+          <h3 class="blog-card-title">
+            <a href="/resources/repair-vs-replace-vfd/">VFD Repair vs. Replacement: When Does Component Rebuild Make Sense?</a>
+          </h3>
+          <p class="blog-card-excerpt">
+            A practical capex guide for plant heads and maintenance managers: comparing lead times, warranty risks, and real cost breakdown between buying new vs. replacing IGBTs and capacitors.
+          </p>
+          <div class="blog-card-footer">
+            <span class="blog-author">By Ajay &bull; Repair Q Electronics</span>
+            <a href="/resources/repair-vs-replace-vfd/" class="blog-read-link">
+              Read Guide
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Blog Card 2 -->
+        <article class="blog-card">
+          <div class="blog-card-badge-row">
+            <span class="blog-badge">Fault Codes &amp; Bench Testing</span>
+            <span class="blog-read-time">7 min read</span>
+          </div>
+          <h3 class="blog-card-title">
+            <a href="/services/vfd-repair-jhajjar/">Common Danfoss &amp; Yaskawa VFD Fault Codes &amp; Bench Solutions</a>
+          </h3>
+          <p class="blog-card-excerpt">
+            Deep dive into recurring trip alarms: overcurrent (Err13), DC link overvoltage (Err07), and earth faults. Learn how bench oscilloscope analysis isolates failed gate optocouplers.
+          </p>
+          <div class="blog-card-footer">
+            <span class="blog-author">By Ajay &bull; Repair Q Electronics</span>
+            <a href="/services/vfd-repair-jhajjar/" class="blog-read-link">
+              Read Guide
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Blog Card 3 -->
+        <article class="blog-card">
+          <div class="blog-card-badge-row">
+            <span class="blog-badge">CNC &amp; Press Brake</span>
+            <span class="blog-read-time">6 min read</span>
+          </div>
+          <h3 class="blog-card-title">
+            <a href="/services/press-brake-cnc-controller-repair/">Press Brake Controller Failures: Cybelec, Delem &amp; ESA Repair Guide</a>
+          </h3>
+          <p class="blog-card-excerpt">
+            How component-level refurbishment solves display blanking, lost axis reference calibration, and power supply rail dropouts without costly full controller retrofits.
+          </p>
+          <div class="blog-card-footer">
+            <span class="blog-author">By Ajay &bull; Repair Q Electronics</span>
+            <a href="/services/press-brake-cnc-controller-repair/" class="blog-read-link">
+              Read Guide
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Blog Card 4 -->
+        <article class="blog-card">
+          <div class="blog-card-badge-row">
+            <span class="blog-badge">HMI Panels</span>
+            <span class="blog-read-time">5 min read</span>
+          </div>
+          <h3 class="blog-card-title">
+            <a href="/services/hmi-touchscreen-repair/">Industrial HMI Touchscreen Glass Replacement &amp; Backlight Repair</a>
+          </h3>
+          <p class="blog-card-excerpt">
+            Resolving unresponsive resistive touch layers, CCFL inverter failure, and communication board IC shorts on Siemens SIMATIC, Pro-face, and Delta operator terminals.
+          </p>
+          <div class="blog-card-footer">
+            <span class="blog-author">By Ajay &bull; Repair Q Electronics</span>
+            <a href="/services/hmi-touchscreen-repair/" class="blog-read-link">
+              Read Guide
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Blog Card 5 -->
+        <article class="blog-card">
+          <div class="blog-card-badge-row">
+            <span class="blog-badge">PLC Automation</span>
+            <span class="blog-read-time">6 min read</span>
+          </div>
+          <h3 class="blog-card-title">
+            <a href="/services/plc-repair/">Troubleshooting PLC Power Supply Rails &amp; Modular I/O Isolation</a>
+          </h3>
+          <p class="blog-card-excerpt">
+            Diagnosing internal SMPS failures (+5V/+24V), blown optocouplers, and industrial Ethernet transceiver damage on Allen-Bradley, Siemens S7, and Mitsubishi MELSEC racks.
+          </p>
+          <div class="blog-card-footer">
+            <span class="blog-author">By Ajay &bull; Repair Q Electronics</span>
+            <a href="/services/plc-repair/" class="blog-read-link">
+              Read Guide
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Blog Card 6 -->
+        <article class="blog-card">
+          <div class="blog-card-badge-row">
+            <span class="blog-badge">HVAC &amp; Chillers</span>
+            <span class="blog-read-time">6 min read</span>
+          </div>
+          <h3 class="blog-card-title">
+            <a href="/services/hvac-chiller-motherboard-repair/">Carrier &amp; Trane Chiller Motherboard Component-Level Repair</a>
+          </h3>
+          <p class="blog-card-excerpt">
+            Repairing communication dropouts, blown transient voltage suppression diodes, and sensor circuit shorts on Carrier ISM and Trane Tracer industrial chiller controllers.
+          </p>
+          <div class="blog-card-footer">
+            <span class="blog-author">By Ajay &bull; Repair Q Electronics</span>
+            <a href="/services/hvac-chiller-motherboard-repair/" class="blog-read-link">
+              Read Guide
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <!-- Hindi Support Section -->
+      <div class="hindi-section" style="margin-top: 56px;">
+        <div class="hindi-title">औद्योगिक ऑटोमेशन रिपेयर एवं फॉल्ट कोड गाइड (हिंदी में)</div>
+        <div class="hindi-text">
+          अगर आपकी फैक्ट्री में VFD, PLC, HMI या CNC कंट्रोलर में ओवरकरेंट (Overcurrent), अर्थ फॉल्ट या डिस्प्ले की समस्या आ रही है, तो नया उपकरण खरीदने से पहले कंपोनेंट-लेवल रिपेयर पर विचार करें। रिपेयर क्यू इलेक्ट्रॉनिक्स (झज्जर, हरियाणा) में हम 60%–70% तक की लागत बचाते हैं और 1 महीने की वारंटी के साथ डायनामिक मोटर लोड टेस्ट करके देते हैं।
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div class="footer-col brand-col">
+        <div class="footer-brand">
+          <div class="brand-icon-box" style="width: 44px; height: 44px;">
+            <img src="/logo.jpg" alt="Repair Q Electronics Logo" class="brand-logo-img">
+          </div>
+          <div class="brand-title-group">
+            <div class="brand-name">Repair<span>Q</span> Electronics</div>
+            <div class="brand-sub">Component-Level Industrial Electronics Lab</div>
+          </div>
+        </div>
+        <p class="footer-desc">
+          Independent multi-brand electronic repair lab delivering precision micro-soldering, IGBT/SCR module rebuilds, and dynamic motor load rig testing for industrial automation equipment across Haryana and Delhi NCR.
+        </p>
+        <div class="footer-contact-info">
+          <div class="footer-contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <span>Direct Lead Line: <a href="tel:8307193825"><strong>Ajay: +91 8307193825</strong></a></span>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <span>Email: <a href="mailto:repairqelectronics@gmail.com"><strong>repairqelectronics@gmail.com</strong></a></span>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>Lab Workshop: Near Yadav Dharamshala, Circular Road, Jhajjar - 124103 (Haryana)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Services &amp; Repairs</h4>
+        <ul class="footer-links">
+          <li><a href="/services/vfd-repair-jhajjar/">VFD &amp; Servo Drive Repair</a></li>
+          <li><a href="/services/soft-starter-repair/">Industrial Soft Starters</a></li>
+          <li><a href="/services/hmi-touchscreen-repair/">HMI Panels &amp; Touchscreens</a></li>
+          <li><a href="/services/plc-repair/">PLC Systems &amp; Modular I/O</a></li>
+          <li><a href="/services/injection-moulding-card-repair/">Injection Moulding Cards</a></li>
+          <li><a href="/services/hvac-chiller-motherboard-repair/">HVAC &amp; Chiller Boards</a></li>
+          <li><a href="/services/press-brake-cnc-controller-repair/">Press Brake &amp; CNC Controllers</a></li>
+          <li><a href="/services/on-site-industrial-electronics-service/">On-Site Factory Diagnostics</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Service Coverage Areas</h4>
+        <ul class="footer-links">
+          <li><a href="/areas/industrial-electronics-repair-delhi/">Delhi Industrial Belts (Bawana, Narela, Okhla)</a></li>
+          <li><a href="/areas/industrial-electronics-repair-gurugram/">Gurugram (Udyog Vihar, Sector 37)</a></li>
+          <li><a href="/areas/industrial-electronics-repair-manesar/">IMT Manesar Auto Cluster</a></li>
+          <li><a href="/areas/industrial-electronics-repair-rohtak/">Rohtak Industrial Belt</a></li>
+          <li><a href="/areas/industrial-electronics-repair-kharkhoda/">Kharkhoda HSIIDC Hub</a></li>
+          <li><a href="/areas/industrial-electronics-repair-bahadurgarh/">Bahadurgarh Industrial Area</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Navigation &amp; Legal</h4>
+        <ul class="footer-links">
+          <li><a href="/about/">About Lab &amp; Engineer Ajay</a></li>
+          <li><a href="/contact/">Contact &amp; Workshop Directions</a></li>
+          <li><a href="/blog/">Technical Automation Blog</a></li>
+          <li><a href="/resources/repair-vs-replace-vfd/">VFD Repair vs Replace Guide</a></li>
+          <li><a href="/#process">3-Step Testing Rig</a></li>
+          <li><a href="/#faq">Frequently Asked Questions</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div class="footer-bottom-copy">
+        &copy; 2026 Repair Q Electronics. All rights reserved. Independent industrial electronics repair laboratory.
+      </div>
+      <div class="footer-bottom-disclaimer">
+        Disclaimer: Danfoss, Siemens, Yaskawa, ABB, Delta, Schneider, Allen-Bradley, Fanuc, Mitsubishi, Omron, Carrier, Trane, Cybelec, Delem, and ESA are registered trademarks of their respective OEMs. Repair Q Electronics operates as an independent component-level repair facility.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Quote Intake Modal -->
+  <div id="quoteModal" class="modal-overlay" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-dialog">
+      <button id="modalCloseBtn" class="modal-close-btn" aria-label="Close dialog">&times;</button>
+      <div class="modal-header">
+        <h3 class="modal-title">Request Industrial Electronics Repair Quote</h3>
+        <p class="modal-subtitle">Direct evaluation from Ajay &bull; 1-month repair warranty &bull; Fast turnaround</p>
+      </div>
+      <form id="quoteForm" class="quote-form">
+        <div class="form-row-2">
+          <div class="form-group">
+            <label for="contactName">Your Name / Company *</label>
+            <input type="text" id="contactName" required placeholder="e.g. Ramesh Kumar (ABC Polymers)">
+          </div>
+          <div class="form-group">
+            <label for="contactPhone">Phone / WhatsApp Number *</label>
+            <input type="tel" id="contactPhone" required placeholder="+91 98XXXXXXXX">
+          </div>
+        </div>
+        <div class="form-row-2">
+          <div class="form-group">
+            <label for="equipType">Equipment Category *</label>
+            <select id="equipType" required>
+              <option value="VFD / AC Drive">VFD / AC Drive</option>
+              <option value="Servo Drive">Servo Drive &amp; Motor</option>
+              <option value="Soft Starter">Soft Starter (ABB, Siemens, etc.)</option>
+              <option value="HMI Touchscreen">HMI Touchscreen Panel</option>
+              <option value="PLC System">PLC CPU or I/O Module</option>
+              <option value="CNC Controller">CNC / Press Brake Controller (Cybelec, Delem, ESA)</option>
+              <option value="Injection Moulding Card">Injection Moulding / SMPS Board</option>
+              <option value="HVAC Motherboard">Chiller / HVAC Motherboard</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="equipBrand">Brand &amp; HP/Rating *</label>
+            <input type="text" id="equipBrand" required placeholder="e.g. Danfoss VLT 50HP, Siemens S7-1200">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="faultDesc">Observed Fault / Error Code</label>
+          <textarea id="faultDesc" rows="3" placeholder="e.g. Tripping on overcurrent Err13, burning smell, touch panel unresponsive..."></textarea>
+        </div>
+        <div id="formFeedback" class="form-feedback" style="display:none; margin-bottom:12px; padding:10px; background:#ecfccb; color:#365314; border-radius:6px; font-size:14px;"></div>
+        <button type="submit" class="btn btn-primary" style="width:100%;">Submit &amp; Open WhatsApp Direct to Ajay</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="/main.js"></script>
+</body>
+</html>
